@@ -21,11 +21,13 @@ I aim to answer these questions using a variety of the technical tools below. Mu
 
 ## Findings
 
-1. Following exploratory analysis, gross pay appears to be consistent with headcount growth, though it is important to understand that the comparison between the first and latest pay runs does not account for fluctuations between those two points. To view a more detailed timeline change comparison, please view the Power BI file in the repo.
+**Question 1**
+
+Following exploratory analysis, gross pay appears to be consistent with headcount growth, though it is important to understand that the comparison between the first and latest pay runs does not account for fluctuations between those two points. To view a more detailed timeline change comparison, please view the Power BI file in the repo.
 
 Over the same period, total pay — comprising gross pay, overtime pay and bonus pay — increased by 12.08% (£339,538.22). Overtime pay increased by 8.84% (£8,269.11), accounting for approximately 2.44% of the total increase. This suggests that overtime was not a major contributor to the overall increase in total pay. Bonus pay comprised only £16.9k across the whole measured period, so did not represent a significant enough portion of total pay to warrant measurement.
 
-2. 
+**Question 2**
 
 ## Tools Used
 

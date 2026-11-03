@@ -15,7 +15,7 @@ AMJS Inc. is a fictional company of 1,000 employees. The company database was cr
 ## Business Questions
 
 1. How is workforce composition influencing payroll costs at AMJS Inc., and which departments should management investigate to better understand changes in workforce expenditure?
-2. To what extent are employee performance ratings associated with compensation, and does that relationship differ across departments?
+2. To what extent were employee performance ratings associated with compensation in 2024, and did that relationship differ across departments?
 
 I aim to answer these questions using a variety of the technical tools below. Multiple analytical tools may be used for each question to give a rounded and broad view of the company and the context for the answers.
 

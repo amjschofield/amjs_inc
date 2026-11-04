@@ -27,8 +27,6 @@ I aim to answer these questions using a variety of the technical tools below. Mu
 
 Following exploratory analysis, gross pay appears to be consistent with headcount growth - Total gross pay has increased by 12.19%, and headcount grew in the same period by 12.16%, leaving a percentage point difference of 0.03%. Though, it is important to understand that the comparison between the first and latest pay runs does not account for fluctuations between those two points. To view a more detailed timeline change comparison, please view the Power BI file in the repo, and the screenshot below for a rough idea.
 
-![Payroll v Headcount Growth](question_1/images/01_departmental_payroll_v_headcount.png)
-
 ### Other pay types
 
 We should examine other pay types to assess their impact as well as gross pay - the biggest of the two being overtime pay.

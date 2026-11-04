@@ -47,25 +47,27 @@ Now that I had fair pay comparison across grouped roles, I was ready to begin an
 
 ### Mean - Low vs Meets
 
-
+![Mean - Low vs Meets](question_2/images/01_mean_low_vs_meets.png)
 
 ### Mean - High vs Meets
 
-
+![Mean - High vs Meets](question_2/images/02_mean_high_vs_meets.png)
 
 ### Median - Low vs Meets
 
-
+![Median - Low vs Meets](question_2/images/03_median_low_vs_meets.png)
 
 ### Median - High vs Meets
 
-
+![Median - High vs Meets](question_2/images/04_median_high_vs_meets.png)
 
 ### Mean - Combined Chart
 
+![Combined Mean Chart](question_2/images/05_combined_mean_chart.png)
 
+From these charts, we can see that every department has at least one role whose pay structure is either inconsistent or even inversely correlated with performance in a descriptive sense. There were exactly 0 departments that suggested a positive correlation with performance. There were individual roles that suggested this, however (BI Analyst and Operations Manager), and if there were to be further investigation into the creation of a merit-based pay structure, then these two roles should be examined to inform the design.
 
-From these charts, we can see that every department has at least one role whose pay structure is either inconsistent or even inversely correlated with performance. There were exactly 0 departments that suggested a positive correlation with performance. There were individual roles that suggested this, however (BI Analyst and Operations Manager), and if there were to be further investigation into the creation of a merit-based pay structure, then these two roles should be examined to inform the design.
+An important point to make here is that in the case of some roles within departments, the sample size was quite small. A pivot with employee count can be found within the Python notebook in the folder.
 
 # Tools Used
 

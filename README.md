@@ -39,11 +39,40 @@ For in-depth results, please see the Exploratory Analysis & Findings notebook in
 
 ## Question 2
 
+Following exploratory analysis, there appears to be little to no evidence that compensation was associated with employee performance in 2024.
+
+Initial findings suggested many inconsistencies in pay structure. However, I realised that this was a limitation of my analysis - I was only grouping by departments and performance ratings to find average salaries (sql/02_departments_mean_median_values). The problem lies in that within each department there are sometimes multiple roles with varying levels of seniority. Therefore, pulling averages from across multiple roles and providing one figure for each department is not representative of pay structure. To fix this, I joined the Job Role table in the SQL query, and pulled it through to be grouped by job role as well (sql/03-depts_roles_mean_median_values).
+
+Now that I had fair pay comparison across grouped roles, I was ready to begin analysis. I created pivots grouped by department, role, and performance rating, which showed percentage mean and median salary deviation for 'Low' and 'High' performance ratings, using 'Meets' as a baseline for comparison. From there, I was able to create bar charts using the matplotlib Python library, showing outliers and anomalies in a visual method. See below and in 'images' folder.
+
+### Mean - Low vs Meets
+
+
+
+### Mean - High vs Meets
+
+
+
+### Median - Low vs Meets
+
+
+
+### Median - High vs Meets
+
+
+
+### Mean - Combined Chart
+
+
+
+From these charts, we can see that every department has at least one role whose pay structure is either inconsistent or even inversely correlated with performance. There were exactly 0 departments that suggested a positive correlation with performance. There were individual roles that suggested this, however (BI Analyst and Operations Manager), and if there were to be further investigation into the creation of a merit-based pay structure, then these two roles should be examined to inform the design.
+
 # Tools Used
 
 - SQL (BigQuery)
 - Python
 - Pandas
+- Matplotlib
 - Power BI
 - DAX
 

@@ -12,6 +12,8 @@ AMJS Inc. is a fictional company of 1,000 employees. The company database was cr
 - Locations
 - Time attendance
 
+This data is synthetic, and re-running the notebooks and SQL queries would require access to the BigQuery Project.
+
 # An Important Note
 
 **The data used in this project is AI-generated, and does not represent the workforce or pay data of any real company.**

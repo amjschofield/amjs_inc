@@ -1,5 +1,6 @@
 
--- Establish a master table from which to pull and perform calculations. This version pulls through department as well as performance rating.
+-- Establish a master table from which to pull and perform calculations. 
+-- This version pulls through department as well as performance rating.
 
 WITH joined_table AS (
     SELECT 
@@ -74,7 +75,9 @@ median_summary AS (
         joined_table
 )
 
--- Pull through final result. Select columns from calculated tables and aggregate by department, role title, and performance rating to show any relationship between performance and compensation across each department.
+-- Pull through final result. Select columns from calculated tables and aggregate 
+-- by department, role title, and performance rating to show any relationship between performance and 
+-- compensation across each department.
 
 SELECT
     s.department_name,

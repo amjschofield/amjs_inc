@@ -19,6 +19,11 @@ ON
     pe.payroll_run_id = pr.payroll_run_id
 
 JOIN
+    `employee-data-project-507314.employee_dataset.employee` e
+ON
+    pe.employee_id = e.employee_id
+
+JOIN
     `employee-data-project-507314.employee_dataset.departments` d
 ON
     e.department_id = d.department_id
